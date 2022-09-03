@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="app.js" async></script>
+  </head>
+  <body>
+    <audio autoplay loop src="music.mp3"></audio>
+    <div class="canvas">
+      <h1 class="gameHeading">Play Rock Paper Scrissor</h1>
+      <div class="gameBody">
+        <!-- The User Choice Section -->
+        <div class="User">
+          <div class="userDiv">
+            <img src="profile.gif" class="img" />
+          </div>
+          <p id="userChoice"></p>
+        </div>
+
+        <!-- The computer choice section -->
+        <div class="computer">
+          <div class="computerDiv">
+            <img src="computer.gif" class="img" />
+          </div>
+          <p id="computerChoice"></p>
+        </div>
+      </div>
+
+      <div class="ChoiceResultRow">
+        <div class="choiceDiv">
+          <button id="Rock">
+            <img
+              class="imgIcon"
+              src="rock.png"
+              alt="rock image"
+              width="50px"
+              height="50px"
+              id="Rock"
+            />
+          </button>
+          <button id="Paper">
+            <img
+              class="imgIcon"
+              src="paper.png"
+              alt="paper image"
+              width="50px"
+              height="50px"
+              id="Paper"
+            />
+          </button>
+          <button id="Scissors">
+            <img
+              class="imgIcon"
+              src="scissors.png"
+              alt="scissors image"
+              width="50px"
+              height="50px"
+              id="Scissors"
+            />
+          </button>
+        </div>
+
+        <div class="answerDiv">
+          <p id="resultChoice"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

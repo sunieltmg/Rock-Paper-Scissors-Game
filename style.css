@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.canvas {
+  background: #f5eddc;
+  width: 100%;
+  padding: 1em;
+  height: 100vh;
+}
+
+.gameHeading {
+  text-align: center;
+  padding: 2rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 5;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.gameBody {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  width: 50%;
+  margin: 2em auto;
+  padding-top: 1em;
+  border-radius: 1em;
+}
+
+/* Computer Choice Section */
+
+.computerDiv,
+.userDiv,
+.resultDiv {
+  /* padding: 1em; */
+  border-radius: 1em;
+  width: 8em;
+}
+
+#computerChoice,
+#userChoice,
+#resultChoice {
+  padding: 1em 0;
+}
+
+.resultDiv {
+  background: #fff;
+}
+
+.ChoiceResultRow {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.answerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  margin: 2em auto;
+  padding: 1em;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
+}
+
+button {
+  /* padding: 1em; */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 0;
+  margin: 1em;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition-duration: 0.5s;
+  font-weight: bold;
+  background-image:'paper.png';
+ 
+}
+
+button:hover {
+  background: #fa9494;
+  cursor: pointer;
+}
+
+button:nth-child(1) {
+  background: greenyellow;
+}
+button:nth-child(2) {
+  background: pink;
+}
+button:nth-child(3) {
+  background: lightskyblue;
+}
+
+.choiceDiv {
+  display: flex;
+  margin: 2em;
+}
+
+.choiceDiv h2 {
+  margin: 0.5em 0;
+}
+
+p {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 1em;
+}
+
+.img {
+  height: 100px;
+
+}
